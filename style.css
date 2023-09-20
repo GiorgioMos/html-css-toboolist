@@ -51,10 +51,15 @@ main{
     border-radius: 5px;
 }
 .checkmark{
-    color: green;
     border-radius: 50%;
-    border-style: solid;
-    border-width: 1px;
+    border: solid 1px green;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+
 }
 .color{
     border-radius: 10px;
@@ -67,10 +72,14 @@ br{
     margin-bottom: 10px;
 }
 .cross{
-    color: red;
     border-radius: 50%;
-    border-style: solid;
-    border-width: 1px;
+    border: solid 1px red;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
 }
 .purple{
     background-color: rgb(128, 38, 128);
